@@ -1,0 +1,15 @@
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 120px);
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    &.home {
+        background-color: #ffff32;
+        img {
+            width: 140%;
+        }
+    }
+}
